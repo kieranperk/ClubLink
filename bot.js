@@ -54,7 +54,6 @@ function createBot() {
     });
 
 	BOT.on("messagestr", async (message) => {
-        console.log(message)
         if (message.includes("公 +5 Inactive Playtime")) {
             const COINS = 5; const EXP = 10;
             STATS.activityCoins+= COINS; STATS.activityExp+= EXP;
