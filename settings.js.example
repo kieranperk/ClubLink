@@ -1,0 +1,17 @@
+module.exports = {
+	webhookURL: "", // Discord Webhook URL
+	username: "", // Your Minecraft Username 
+	version: "1.19.3",
+	notifications: {
+		inactivityRewards: {
+			enabled: true, // Enable inactivity reward notifications
+		},
+		dms: {
+			enabled: true, // Enable dm notifications
+			autoresponder: "Sorry, I'm afk right now using ClubLink, so I can't respond to your message! <3" // Leave blank to disable
+		},
+		market: {
+			enabled: true, // Enable market notifications
+		}
+	}
+}
